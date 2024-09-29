@@ -1,0 +1,2 @@
+Invoking command in '/home/robousr/ROS2Dev/robot_2025_ws/src/practica1_description/build/blink_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robousr/ROS2Dev/robot_2025_ws/src/practica1_description/build/blink_description -- -j2 -l2
+Invoked command in '/home/robousr/ROS2Dev/robot_2025_ws/src/practica1_description/build/blink_description' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robousr/ROS2Dev/robot_2025_ws/src/practica1_description/build/blink_description -- -j2 -l2
