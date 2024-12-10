@@ -1,0 +1,17 @@
+/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description/share/scorbot_description//urdf/scorbot.urdf
+/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description/share/scorbot_description//launch/display.launch.xml
+/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description/share/ament_index/resource_index/package_run_dependencies/scorbot_description
+/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description/share/ament_index/resource_index/parent_prefix_path/scorbot_description
+/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description/share/scorbot_description/environment/ament_prefix_path.sh
+/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description/share/scorbot_description/environment/ament_prefix_path.dsv
+/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description/share/scorbot_description/environment/path.sh
+/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description/share/scorbot_description/environment/path.dsv
+/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description/share/scorbot_description/local_setup.bash
+/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description/share/scorbot_description/local_setup.sh
+/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description/share/scorbot_description/local_setup.zsh
+/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description/share/scorbot_description/local_setup.dsv
+/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description/share/scorbot_description/package.dsv
+/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description/share/ament_index/resource_index/packages/scorbot_description
+/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description/share/scorbot_description/cmake/scorbot_descriptionConfig.cmake
+/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description/share/scorbot_description/cmake/scorbot_descriptionConfig-version.cmake
+/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description/share/scorbot_description/package.xml

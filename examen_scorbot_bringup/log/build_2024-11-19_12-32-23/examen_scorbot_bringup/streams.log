@@ -1,0 +1,49 @@
+[0.051s] Invoking command in '/home/robousr/ROS2Dev/robot_2025_ws/src/examen_scorbot_bringup/build/examen_scorbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/robousr/ROS2Dev/robot_2025_ws/src/examen_scorbot_bringup -DCMAKE_INSTALL_PREFIX=/home/robousr/ROS2Dev/robot_2025_ws/src/examen_scorbot_bringup/install/examen_scorbot_bringup
+[0.747s] -- The C compiler identification is GNU 11.4.0
+[1.291s] -- The CXX compiler identification is GNU 11.4.0
+[1.354s] -- Detecting C compiler ABI info
+[1.721s] -- Detecting C compiler ABI info - done
+[1.769s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.774s] -- Detecting C compile features
+[1.779s] -- Detecting C compile features - done
+[1.798s] -- Detecting CXX compiler ABI info
+[2.204s] -- Detecting CXX compiler ABI info - done
+[2.223s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.223s] -- Detecting CXX compile features
+[2.224s] -- Detecting CXX compile features - done
+[2.248s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.986s] -- Found Python3: /home/robousr/.pyenv/shims/python3 (found version "3.10.12") found components: Interpreter 
+[4.667s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.174s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.175s] -- Configured cppcheck include dirs: 
+[5.175s] -- Configured cppcheck exclude dirs and/or files: 
+[5.187s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.194s] -- Added test 'lint_cmake' to check CMake code style
+[5.199s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.223s] -- Added test 'uncrustify' to check C / C++ code style
+[5.223s] -- Configured uncrustify additional arguments: 
+[5.232s] -- Added test 'xmllint' to check XML markup files
+[5.243s] -- Configuring done
+[5.263s] -- Generating done
+[5.267s] -- Build files have been written to: /home/robousr/ROS2Dev/robot_2025_ws/src/examen_scorbot_bringup/build/examen_scorbot_bringup
+[5.283s] Invoked command in '/home/robousr/ROS2Dev/robot_2025_ws/src/examen_scorbot_bringup/build/examen_scorbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/robousr/ROS2Dev/robot_2025_ws/src/examen_scorbot_bringup -DCMAKE_INSTALL_PREFIX=/home/robousr/ROS2Dev/robot_2025_ws/src/examen_scorbot_bringup/install/examen_scorbot_bringup
+[5.298s] Invoking command in '/home/robousr/ROS2Dev/robot_2025_ws/src/examen_scorbot_bringup/build/examen_scorbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robousr/ROS2Dev/robot_2025_ws/src/examen_scorbot_bringup/build/examen_scorbot_bringup -- -j2 -l2
+[5.440s] Invoked command in '/home/robousr/ROS2Dev/robot_2025_ws/src/examen_scorbot_bringup/build/examen_scorbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robousr/ROS2Dev/robot_2025_ws/src/examen_scorbot_bringup/build/examen_scorbot_bringup -- -j2 -l2
+[5.589s] Invoking command in '/home/robousr/ROS2Dev/robot_2025_ws/src/examen_scorbot_bringup/build/examen_scorbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robousr/ROS2Dev/robot_2025_ws/src/examen_scorbot_bringup/build/examen_scorbot_bringup
+[5.619s] -- Install configuration: ""
+[5.621s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/examen_scorbot_bringup/install/examen_scorbot_bringup/share/ament_index/resource_index/package_run_dependencies/examen_scorbot_bringup
+[5.624s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/examen_scorbot_bringup/install/examen_scorbot_bringup/share/ament_index/resource_index/parent_prefix_path/examen_scorbot_bringup
+[5.626s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/examen_scorbot_bringup/install/examen_scorbot_bringup/share/examen_scorbot_bringup/environment/ament_prefix_path.sh
+[5.627s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/examen_scorbot_bringup/install/examen_scorbot_bringup/share/examen_scorbot_bringup/environment/ament_prefix_path.dsv
+[5.627s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/examen_scorbot_bringup/install/examen_scorbot_bringup/share/examen_scorbot_bringup/environment/path.sh
+[5.628s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/examen_scorbot_bringup/install/examen_scorbot_bringup/share/examen_scorbot_bringup/environment/path.dsv
+[5.633s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/examen_scorbot_bringup/install/examen_scorbot_bringup/share/examen_scorbot_bringup/local_setup.bash
+[5.633s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/examen_scorbot_bringup/install/examen_scorbot_bringup/share/examen_scorbot_bringup/local_setup.sh
+[5.639s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/examen_scorbot_bringup/install/examen_scorbot_bringup/share/examen_scorbot_bringup/local_setup.zsh
+[5.643s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/examen_scorbot_bringup/install/examen_scorbot_bringup/share/examen_scorbot_bringup/local_setup.dsv
+[5.643s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/examen_scorbot_bringup/install/examen_scorbot_bringup/share/examen_scorbot_bringup/package.dsv
+[5.644s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/examen_scorbot_bringup/install/examen_scorbot_bringup/share/ament_index/resource_index/packages/examen_scorbot_bringup
+[5.644s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/examen_scorbot_bringup/install/examen_scorbot_bringup/share/examen_scorbot_bringup/cmake/examen_scorbot_bringupConfig.cmake
+[5.644s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/examen_scorbot_bringup/install/examen_scorbot_bringup/share/examen_scorbot_bringup/cmake/examen_scorbot_bringupConfig-version.cmake
+[5.645s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/examen_scorbot_bringup/install/examen_scorbot_bringup/share/examen_scorbot_bringup/package.xml
+[5.651s] Invoked command in '/home/robousr/ROS2Dev/robot_2025_ws/src/examen_scorbot_bringup/build/examen_scorbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robousr/ROS2Dev/robot_2025_ws/src/examen_scorbot_bringup/build/examen_scorbot_bringup

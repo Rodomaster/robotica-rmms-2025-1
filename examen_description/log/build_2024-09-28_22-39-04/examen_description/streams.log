@@ -1,0 +1,46 @@
+[0.015s] Invoking command in '/home/robousr/ROS2Dev/robot_2025_ws/src/examen_description/build/examen_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robousr/ROS2Dev/robot_2025_ws/src/examen_description -DCMAKE_INSTALL_PREFIX=/home/robousr/ROS2Dev/robot_2025_ws/src/examen_description/install/examen_description
+[0.249s] -- The C compiler identification is GNU 11.4.0
+[0.555s] -- The CXX compiler identification is GNU 11.4.0
+[0.575s] -- Detecting C compiler ABI info
+[0.750s] -- Detecting C compiler ABI info - done
+[0.760s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.760s] -- Detecting C compile features
+[0.760s] -- Detecting C compile features - done
+[0.764s] -- Detecting CXX compiler ABI info
+[0.866s] -- Detecting CXX compiler ABI info - done
+[0.872s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.873s] -- Detecting CXX compile features
+[0.875s] -- Detecting CXX compile features - done
+[0.879s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.363s] -- Found Python3: /home/robousr/.pyenv/shims/python3 (found version "3.10.12") found components: Interpreter 
+[1.802s] -- Configuring done
+[1.810s] -- Generating done
+[1.812s] -- Build files have been written to: /home/robousr/ROS2Dev/robot_2025_ws/src/examen_description/build/examen_description
+[1.821s] Invoked command in '/home/robousr/ROS2Dev/robot_2025_ws/src/examen_description/build/examen_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robousr/ROS2Dev/robot_2025_ws/src/examen_description -DCMAKE_INSTALL_PREFIX=/home/robousr/ROS2Dev/robot_2025_ws/src/examen_description/install/examen_description
+[1.824s] Invoking command in '/home/robousr/ROS2Dev/robot_2025_ws/src/examen_description/build/examen_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robousr/ROS2Dev/robot_2025_ws/src/examen_description/build/examen_description -- -j2 -l2
+[1.868s] Invoked command in '/home/robousr/ROS2Dev/robot_2025_ws/src/examen_description/build/examen_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robousr/ROS2Dev/robot_2025_ws/src/examen_description/build/examen_description -- -j2 -l2
+[1.906s] Invoking command in '/home/robousr/ROS2Dev/robot_2025_ws/src/examen_description/build/examen_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robousr/ROS2Dev/robot_2025_ws/src/examen_description/build/examen_description
+[1.915s] -- Install configuration: ""
+[1.915s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/examen_description/install/examen_description/share/examen_description//urdf
+[1.916s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/examen_description/install/examen_description/share/examen_description//urdf/scara_gz:propierties.xacro
+[1.916s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/examen_description/install/examen_description/share/examen_description//urdf/scara_basic_position_controller.xacro
+[1.917s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/examen_description/install/examen_description/share/examen_description//urdf/scara.urdf
+[1.917s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/examen_description/install/examen_description/share/examen_description//launch
+[1.918s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/examen_description/install/examen_description/share/examen_description//launch/scara_display.launch.xml
+[1.918s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/examen_description/install/examen_description/share/examen_description//rviz
+[1.919s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/examen_description/install/examen_description/share/ament_index/resource_index/package_run_dependencies/examen_description
+[1.919s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/examen_description/install/examen_description/share/ament_index/resource_index/parent_prefix_path/examen_description
+[1.919s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/examen_description/install/examen_description/share/examen_description/environment/ament_prefix_path.sh
+[1.919s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/examen_description/install/examen_description/share/examen_description/environment/ament_prefix_path.dsv
+[1.920s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/examen_description/install/examen_description/share/examen_description/environment/path.sh
+[1.920s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/examen_description/install/examen_description/share/examen_description/environment/path.dsv
+[1.920s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/examen_description/install/examen_description/share/examen_description/local_setup.bash
+[1.920s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/examen_description/install/examen_description/share/examen_description/local_setup.sh
+[1.921s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/examen_description/install/examen_description/share/examen_description/local_setup.zsh
+[1.921s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/examen_description/install/examen_description/share/examen_description/local_setup.dsv
+[1.921s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/examen_description/install/examen_description/share/examen_description/package.dsv
+[1.921s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/examen_description/install/examen_description/share/ament_index/resource_index/packages/examen_description
+[1.921s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/examen_description/install/examen_description/share/examen_description/cmake/examen_descriptionConfig.cmake
+[1.922s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/examen_description/install/examen_description/share/examen_description/cmake/examen_descriptionConfig-version.cmake
+[1.922s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/examen_description/install/examen_description/share/examen_description/package.xml
+[1.925s] Invoked command in '/home/robousr/ROS2Dev/robot_2025_ws/src/examen_description/build/examen_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robousr/ROS2Dev/robot_2025_ws/src/examen_description/build/examen_description

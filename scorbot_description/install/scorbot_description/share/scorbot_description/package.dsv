@@ -1,0 +1,8 @@
+source;share/scorbot_description/hook/cmake_prefix_path.ps1
+source;share/scorbot_description/hook/cmake_prefix_path.dsv
+source;share/scorbot_description/hook/cmake_prefix_path.sh
+source;share/scorbot_description/local_setup.bash
+source;share/scorbot_description/local_setup.dsv
+source;share/scorbot_description/local_setup.ps1
+source;share/scorbot_description/local_setup.sh
+source;share/scorbot_description/local_setup.zsh

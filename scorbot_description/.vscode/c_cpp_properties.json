@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/humble/include/**",
+        "/home/robousr/ROS2Dev/robot_2025_ws/src/exam_bringup/include/**",
+        "/home/robousr/ROS2Dev/robot_2025_ws/src/examen_description/include/**",
+        "/home/robousr/ROS2Dev/robot_2025_ws/src/practica1_description/include/**",
+        "/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/include/**",
+        "include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

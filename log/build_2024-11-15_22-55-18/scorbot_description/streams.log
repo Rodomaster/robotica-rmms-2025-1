@@ -1,0 +1,15 @@
+[0.039s] Invoking command in '/home/robousr/ROS2Dev/robot_2025_ws/src/build/scorbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robousr/ROS2Dev/robot_2025_ws/src/build/scorbot_description -- -j2 -l2
+[0.189s] Invoked command in '/home/robousr/ROS2Dev/robot_2025_ws/src/build/scorbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robousr/ROS2Dev/robot_2025_ws/src/build/scorbot_description -- -j2 -l2
+[0.303s] Invoking command in '/home/robousr/ROS2Dev/robot_2025_ws/src/build/scorbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robousr/ROS2Dev/robot_2025_ws/src/build/scorbot_description
+[0.355s] -- Install configuration: ""
+[0.355s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/scorbot_description/share/scorbot_description//urdf
+[0.356s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/scorbot_description/share/scorbot_description//urdf/scorbot.urdf
+[0.358s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/scorbot_description/share/scorbot_description//launch
+[0.359s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/scorbot_description/share/scorbot_description//launch/display.launch.xml
+[0.360s] [31mCMake Error at cmake_install.cmake:46 (file):
+[0.361s]   file INSTALL cannot find
+[0.361s]   "/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/rviz": No such
+[0.362s]   file or directory.
+[0.363s] 
+[0.366s] [0m
+[0.395s] Invoked command in '/home/robousr/ROS2Dev/robot_2025_ws/src/build/scorbot_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robousr/ROS2Dev/robot_2025_ws/src/build/scorbot_description

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<robot name="examen_scorbot" xmlns:xacro="http://ros.org/wiki/xacro" >
+
+   <gazebo>
+
+        <plugin name="joint_state_publisher_controller" filename="libgazebo_ros_joint_state_publisher.so">
+            <!-- update rate Hz -->
+            <update_rate>10</update_rate>
+            <joint_name>joint_1</joint_name>
+            <joint_name>joint_2</joint_name>
+            <joint_name>joint_3</joint_name>
+            <joint_name>joint_4</joint_name>
+
+        </plugin>
+   </gazebo>
+    
+   <gazebo>
+        <plugin name="joint_pose_trayectory_controller" filename="libgazebo_ros_pose_trayectory.so">
+            <update_rate>2</update_rate>
+        </plugin>
+
+   </gazebo>
+</robot>

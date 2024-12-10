@@ -1,0 +1,65 @@
+[0.070s] Invoking command in '/home/robousr/ROS2Dev/robot_2025_ws/src/build/examen_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robousr/ROS2Dev/robot_2025_ws/src/build/examen_bringup -- -j2 -l2
+[0.361s] Built target ament_cmake_python_copy_examen_bringup
+[2.049s] running egg_info
+[2.051s] writing examen_bringup.egg-info/PKG-INFO
+[2.053s] writing dependency_links to examen_bringup.egg-info/dependency_links.txt
+[2.054s] writing top-level names to examen_bringup.egg-info/top_level.txt
+[2.063s] reading manifest file 'examen_bringup.egg-info/SOURCES.txt'
+[2.064s] writing manifest file 'examen_bringup.egg-info/SOURCES.txt'
+[2.171s] Built target ament_cmake_python_build_examen_bringup_egg
+[2.228s] Invoked command in '/home/robousr/ROS2Dev/robot_2025_ws/src/build/examen_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robousr/ROS2Dev/robot_2025_ws/src/build/examen_bringup -- -j2 -l2
+[2.333s] Invoking command in '/home/robousr/ROS2Dev/robot_2025_ws/src/build/examen_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robousr/ROS2Dev/robot_2025_ws/src/build/examen_bringup
+[2.375s] -- Install configuration: ""
+[2.379s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/share/examen_bringup//launch
+[2.379s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/share/examen_bringup//launch/roberto_pos_controller_scara.launch.py
+[2.379s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/share/examen_bringup//launch/tes2_trayectory_controller_scara.launch.py
+[2.380s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/share/examen_bringup//launch/position_controller_scara.launch.py
+[2.380s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/share/examen_bringup//launch/test_trajectory_controller.launch.py
+[2.383s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/share/examen_bringup//launch/trajectory_controller_scara.launch.py
+[2.385s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/share/examen_bringup//launch/simple_controller_scara.launch.py
+[2.388s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/share/examen_bringup//rviz
+[2.389s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/share/examen_bringup//rviz/scara_trajectory_controller_rviz.rviz
+[2.389s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/share/examen_bringup//world
+[2.392s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/share/examen_bringup//world/test_2_world.world
+[2.393s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/share/examen_bringup//world/test_2_world
+[2.393s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/share/examen_bringup//world/test_2_world/roberto
+[2.393s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/share/examen_bringup//world/test_2_world/roberto/model.sdf
+[2.393s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/share/examen_bringup//world/test_2_world/roberto/model.config
+[2.393s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/share/examen_bringup//world/test_world
+[2.396s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/share/examen_bringup//world/test_world/model.sdf
+[2.397s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/share/examen_bringup//world/test_world/model.config
+[2.397s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/share/examen_bringup//world/test_w_1.world
+[2.397s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/share/examen_bringup//src
+[2.398s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/share/examen_bringup//src/multi_tray.py
+[2.399s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/share/examen_bringup//src/position_test.py
+[2.400s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/share/examen_bringup//src/trajectory_test.py
+[2.400s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/share/examen_bringup//src/tray_test.py
+[2.400s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/share/examen_bringup/environment/pythonpath.sh
+[2.400s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/share/examen_bringup/environment/pythonpath.dsv
+[2.400s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/local/lib/python3.10/dist-packages/examen_bringup-0.0.0-py3.10.egg-info
+[2.401s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/local/lib/python3.10/dist-packages/examen_bringup-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.401s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/local/lib/python3.10/dist-packages/examen_bringup-0.0.0-py3.10.egg-info/PKG-INFO
+[2.401s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/local/lib/python3.10/dist-packages/examen_bringup-0.0.0-py3.10.egg-info/top_level.txt
+[2.404s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/local/lib/python3.10/dist-packages/examen_bringup-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.412s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/local/lib/python3.10/dist-packages/examen_bringup
+[2.412s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/local/lib/python3.10/dist-packages/examen_bringup/__init__.py
+[2.746s] Listing '/home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/local/lib/python3.10/dist-packages/examen_bringup'...
+[2.764s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/lib/examen_bringup/trajectory_test.py
+[2.765s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/lib/examen_bringup/tray_test.py
+[2.766s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/lib/examen_bringup/multi_tray.py
+[2.766s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/share/ament_index/resource_index/package_run_dependencies/examen_bringup
+[2.767s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/share/ament_index/resource_index/parent_prefix_path/examen_bringup
+[2.768s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/share/examen_bringup/environment/ament_prefix_path.sh
+[2.769s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/share/examen_bringup/environment/ament_prefix_path.dsv
+[2.770s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/share/examen_bringup/environment/path.sh
+[2.771s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/share/examen_bringup/environment/path.dsv
+[2.772s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/share/examen_bringup/local_setup.bash
+[2.773s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/share/examen_bringup/local_setup.sh
+[2.776s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/share/examen_bringup/local_setup.zsh
+[2.778s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/share/examen_bringup/local_setup.dsv
+[2.781s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/share/examen_bringup/package.dsv
+[2.783s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/share/ament_index/resource_index/packages/examen_bringup
+[2.784s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/share/examen_bringup/cmake/examen_bringupConfig.cmake
+[2.784s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/share/examen_bringup/cmake/examen_bringupConfig-version.cmake
+[2.787s] -- Up-to-date: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_bringup/share/examen_bringup/package.xml
+[2.811s] Invoked command in '/home/robousr/ROS2Dev/robot_2025_ws/src/build/examen_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robousr/ROS2Dev/robot_2025_ws/src/build/examen_bringup

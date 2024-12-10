@@ -1,0 +1,45 @@
+[0.070s] Invoking command in '/home/robousr/ROS2Dev/robot_2025_ws/src/build/scorbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description -DCMAKE_INSTALL_PREFIX=/home/robousr/ROS2Dev/robot_2025_ws/src/install/scorbot_description
+[0.327s] -- The C compiler identification is GNU 11.4.0
+[0.542s] -- The CXX compiler identification is GNU 11.4.0
+[0.571s] -- Detecting C compiler ABI info
+[0.806s] -- Detecting C compiler ABI info - done
+[0.830s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.831s] -- Detecting C compile features
+[0.834s] -- Detecting C compile features - done
+[0.842s] -- Detecting CXX compiler ABI info
+[1.102s] -- Detecting CXX compiler ABI info - done
+[1.126s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.128s] -- Detecting CXX compile features
+[1.129s] -- Detecting CXX compile features - done
+[1.138s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.531s] -- Found Python3: /home/robousr/.pyenv/shims/python3 (found version "3.10.12") found components: Interpreter 
+[3.313s] -- Configuring done
+[3.359s] -- Generating done
+[3.364s] -- Build files have been written to: /home/robousr/ROS2Dev/robot_2025_ws/src/build/scorbot_description
+[3.376s] Invoked command in '/home/robousr/ROS2Dev/robot_2025_ws/src/build/scorbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description -DCMAKE_INSTALL_PREFIX=/home/robousr/ROS2Dev/robot_2025_ws/src/install/scorbot_description
+[3.379s] Invoking command in '/home/robousr/ROS2Dev/robot_2025_ws/src/build/scorbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robousr/ROS2Dev/robot_2025_ws/src/build/scorbot_description -- -j2 -l2
+[3.505s] Invoked command in '/home/robousr/ROS2Dev/robot_2025_ws/src/build/scorbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robousr/ROS2Dev/robot_2025_ws/src/build/scorbot_description -- -j2 -l2
+[3.591s] Invoking command in '/home/robousr/ROS2Dev/robot_2025_ws/src/build/scorbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robousr/ROS2Dev/robot_2025_ws/src/build/scorbot_description
+[3.620s] -- Install configuration: ""
+[3.621s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/scorbot_description/share/scorbot_description//urdf
+[3.621s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/scorbot_description/share/scorbot_description//urdf/scorbot.urdf
+[3.622s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/scorbot_description/share/scorbot_description//launch
+[3.624s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/scorbot_description/share/scorbot_description//launch/display.launch.xml
+[3.624s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/scorbot_description/share/scorbot_description//rviz
+[3.625s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/scorbot_description/share/scorbot_description//config
+[3.625s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/scorbot_description/share/ament_index/resource_index/package_run_dependencies/scorbot_description
+[3.626s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/scorbot_description/share/ament_index/resource_index/parent_prefix_path/scorbot_description
+[3.627s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/scorbot_description/share/scorbot_description/environment/ament_prefix_path.sh
+[3.628s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/scorbot_description/share/scorbot_description/environment/ament_prefix_path.dsv
+[3.628s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/scorbot_description/share/scorbot_description/environment/path.sh
+[3.629s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/scorbot_description/share/scorbot_description/environment/path.dsv
+[3.630s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/scorbot_description/share/scorbot_description/local_setup.bash
+[3.631s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/scorbot_description/share/scorbot_description/local_setup.sh
+[3.633s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/scorbot_description/share/scorbot_description/local_setup.zsh
+[3.634s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/scorbot_description/share/scorbot_description/local_setup.dsv
+[3.634s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/scorbot_description/share/scorbot_description/package.dsv
+[3.635s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/scorbot_description/share/ament_index/resource_index/packages/scorbot_description
+[3.636s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/scorbot_description/share/scorbot_description/cmake/scorbot_descriptionConfig.cmake
+[3.636s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/scorbot_description/share/scorbot_description/cmake/scorbot_descriptionConfig-version.cmake
+[3.637s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/scorbot_description/share/scorbot_description/package.xml
+[3.643s] Invoked command in '/home/robousr/ROS2Dev/robot_2025_ws/src/build/scorbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robousr/ROS2Dev/robot_2025_ws/src/build/scorbot_description

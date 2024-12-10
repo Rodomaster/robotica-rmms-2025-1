@@ -1,0 +1,103 @@
+[0.377s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.378s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7a2bfe737700>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7a2bfe7371c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7a2bfe7371c0>>, mixin_verb=('build',))
+[0.957s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.957s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.958s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.958s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.958s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.958s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.958s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.014s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'scorbot_description'
+[1.014s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.015s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.015s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.015s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.015s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.133s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/robousr/ROS2Dev/robot_2025_ws/install
+[1.136s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/robousr/ROS2Dev/robot_2025_ws/src/examen_description/install
+[1.142s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 280 installed packages in /opt/ros/humble
+[1.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.298s] Level 5:colcon.colcon_core.verb:set package 'scorbot_description' build argument 'cmake_args' from command line to 'None'
+[1.298s] Level 5:colcon.colcon_core.verb:set package 'scorbot_description' build argument 'cmake_target' from command line to 'None'
+[1.298s] Level 5:colcon.colcon_core.verb:set package 'scorbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.298s] Level 5:colcon.colcon_core.verb:set package 'scorbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.298s] Level 5:colcon.colcon_core.verb:set package 'scorbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.298s] Level 5:colcon.colcon_core.verb:set package 'scorbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.299s] Level 5:colcon.colcon_core.verb:set package 'scorbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.299s] Level 5:colcon.colcon_core.verb:set package 'scorbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.299s] Level 5:colcon.colcon_core.verb:set package 'scorbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.299s] DEBUG:colcon.colcon_core.verb:Building package 'scorbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/build/scorbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description', 'merge_install': False, 'path': '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description', 'symlink_install': False, 'test_result_base': None}
+[1.300s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.303s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.304s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description' with build type 'ament_cmake'
+[1.304s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description'
+[1.313s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.314s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.314s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/build/scorbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/build/scorbot_description -- -j2 -l2
+[1.491s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/build/scorbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/build/scorbot_description -- -j2 -l2
+[1.622s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/build/scorbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/build/scorbot_description
+[1.680s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scorbot_description)
+[1.683s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/build/scorbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/build/scorbot_description
+[1.691s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description' for CMake module files
+[1.693s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description' for CMake config files
+[1.693s] Level 1:colcon.colcon_core.shell:create_environment_hook('scorbot_description', 'cmake_prefix_path')
+[1.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description/share/scorbot_description/hook/cmake_prefix_path.ps1'
+[1.696s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description/share/scorbot_description/hook/cmake_prefix_path.dsv'
+[1.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description/share/scorbot_description/hook/cmake_prefix_path.sh'
+[1.699s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description/bin'
+[1.699s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description/lib/pkgconfig/scorbot_description.pc'
+[1.700s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description/lib/python3.10/site-packages'
+[1.701s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description/bin'
+[1.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description/share/scorbot_description/package.ps1'
+[1.704s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description/share/scorbot_description/package.dsv'
+[1.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description/share/scorbot_description/package.sh'
+[1.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description/share/scorbot_description/package.bash'
+[1.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description/share/scorbot_description/package.zsh'
+[1.711s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description/share/colcon-core/packages/scorbot_description)
+[1.790s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scorbot_description)
+[1.792s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description' for CMake module files
+[1.795s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description' for CMake config files
+[1.797s] Level 1:colcon.colcon_core.shell:create_environment_hook('scorbot_description', 'cmake_prefix_path')
+[1.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description/share/scorbot_description/hook/cmake_prefix_path.ps1'
+[1.801s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description/share/scorbot_description/hook/cmake_prefix_path.dsv'
+[1.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description/share/scorbot_description/hook/cmake_prefix_path.sh'
+[1.806s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description/bin'
+[1.806s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description/lib/pkgconfig/scorbot_description.pc'
+[1.807s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description/lib/python3.10/site-packages'
+[1.808s] Level 1:colcon.colcon_core.environment:checking '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description/bin'
+[1.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description/share/scorbot_description/package.ps1'
+[1.812s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description/share/scorbot_description/package.dsv'
+[1.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description/share/scorbot_description/package.sh'
+[1.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description/share/scorbot_description/package.bash'
+[1.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description/share/scorbot_description/package.zsh'
+[1.819s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/scorbot_description/share/colcon-core/packages/scorbot_description)
+[1.820s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.821s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.821s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.821s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.838s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.839s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.839s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.890s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.891s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/local_setup.ps1'
+[1.895s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/_local_setup_util_ps1.py'
+[1.906s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/setup.ps1'
+[1.916s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/local_setup.sh'
+[1.920s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/_local_setup_util_sh.py'
+[1.925s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/setup.sh'
+[1.932s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/local_setup.bash'
+[1.934s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/setup.bash'
+[1.940s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/local_setup.zsh'
+[1.943s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robousr/ROS2Dev/robot_2025_ws/src/scorbot_description/install/setup.zsh'

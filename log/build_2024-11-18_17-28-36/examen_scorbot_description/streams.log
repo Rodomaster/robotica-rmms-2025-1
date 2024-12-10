@@ -1,0 +1,45 @@
+[0.060s] Invoking command in '/home/robousr/ROS2Dev/robot_2025_ws/src/build/examen_scorbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/robousr/ROS2Dev/robot_2025_ws/src/examen_scorbot_description -DCMAKE_INSTALL_PREFIX=/home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_scorbot_description
+[0.577s] -- The C compiler identification is GNU 11.4.0
+[0.997s] -- The CXX compiler identification is GNU 11.4.0
+[1.083s] -- Detecting C compiler ABI info
+[1.417s] -- Detecting C compiler ABI info - done
+[1.466s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.466s] -- Detecting C compile features
+[1.471s] -- Detecting C compile features - done
+[1.488s] -- Detecting CXX compiler ABI info
+[1.797s] -- Detecting CXX compiler ABI info - done
+[1.820s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.820s] -- Detecting CXX compile features
+[1.822s] -- Detecting CXX compile features - done
+[1.859s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.587s] -- Found Python3: /home/robousr/.pyenv/shims/python3 (found version "3.10.12") found components: Interpreter 
+[4.557s] -- Configuring done
+[4.570s] -- Generating done
+[4.573s] -- Build files have been written to: /home/robousr/ROS2Dev/robot_2025_ws/src/build/examen_scorbot_description
+[4.594s] Invoked command in '/home/robousr/ROS2Dev/robot_2025_ws/src/build/examen_scorbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/robousr/ROS2Dev/robot_2025_ws/src/examen_scorbot_description -DCMAKE_INSTALL_PREFIX=/home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_scorbot_description
+[4.595s] Invoking command in '/home/robousr/ROS2Dev/robot_2025_ws/src/build/examen_scorbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robousr/ROS2Dev/robot_2025_ws/src/build/examen_scorbot_description -- -j2 -l2
+[4.766s] Invoked command in '/home/robousr/ROS2Dev/robot_2025_ws/src/build/examen_scorbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robousr/ROS2Dev/robot_2025_ws/src/build/examen_scorbot_description -- -j2 -l2
+[4.874s] Invoking command in '/home/robousr/ROS2Dev/robot_2025_ws/src/build/examen_scorbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robousr/ROS2Dev/robot_2025_ws/src/build/examen_scorbot_description
+[4.920s] -- Install configuration: ""
+[4.922s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_scorbot_description/share/examen_scorbot_description//urdf
+[4.927s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_scorbot_description/share/examen_scorbot_description//urdf/examen_scorbot_description.urdf
+[4.927s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_scorbot_description/share/examen_scorbot_description//launch
+[4.927s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_scorbot_description/share/examen_scorbot_description//launch/scorbot_display.launch.xml
+[4.927s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_scorbot_description/share/examen_scorbot_description//rviz
+[4.927s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_scorbot_description/share/examen_scorbot_description//config
+[4.931s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_scorbot_description/share/ament_index/resource_index/package_run_dependencies/examen_scorbot_description
+[4.931s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_scorbot_description/share/ament_index/resource_index/parent_prefix_path/examen_scorbot_description
+[4.932s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_scorbot_description/share/examen_scorbot_description/environment/ament_prefix_path.sh
+[4.936s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_scorbot_description/share/examen_scorbot_description/environment/ament_prefix_path.dsv
+[4.937s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_scorbot_description/share/examen_scorbot_description/environment/path.sh
+[4.937s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_scorbot_description/share/examen_scorbot_description/environment/path.dsv
+[4.937s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_scorbot_description/share/examen_scorbot_description/local_setup.bash
+[4.943s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_scorbot_description/share/examen_scorbot_description/local_setup.sh
+[4.943s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_scorbot_description/share/examen_scorbot_description/local_setup.zsh
+[4.943s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_scorbot_description/share/examen_scorbot_description/local_setup.dsv
+[4.948s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_scorbot_description/share/examen_scorbot_description/package.dsv
+[4.948s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_scorbot_description/share/ament_index/resource_index/packages/examen_scorbot_description
+[4.949s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_scorbot_description/share/examen_scorbot_description/cmake/examen_scorbot_descriptionConfig.cmake
+[4.952s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_scorbot_description/share/examen_scorbot_description/cmake/examen_scorbot_descriptionConfig-version.cmake
+[4.953s] -- Installing: /home/robousr/ROS2Dev/robot_2025_ws/src/install/examen_scorbot_description/share/examen_scorbot_description/package.xml
+[4.959s] Invoked command in '/home/robousr/ROS2Dev/robot_2025_ws/src/build/examen_scorbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robousr/ROS2Dev/robot_2025_ws/src/build/examen_scorbot_description
